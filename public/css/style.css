@@ -1,0 +1,24 @@
+body {
+  /* background-color: #e7e7e7; */
+}
+.margin-top {
+  margin-top: 8rem/* 20px */;
+}
+
+.possition{
+  position: relative;
+  top: 20px;
+  left: 120px;
+}
+
+.quantityPossition{
+  position: relative;
+  top: 55px;
+  left: -25px;
+}
+.imageSize{
+  width: 30rem;
+}
+.margin-left{
+  margin-left: 20rem;
+}

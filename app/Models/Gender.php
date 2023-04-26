@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Gender extends Model
+{
+    use HasFactory;
+
+    protected $fillable = ["gender_type"];
+
+    public function bicycles()
+    {
+        return $this->hasMany(Bicycle::class);
+    }
+
+
+
+}
